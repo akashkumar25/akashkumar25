@@ -18,9 +18,9 @@ I work at Abaut GmbH, redefining how the mining and construction industry can be
 | Project | Area | What it is |
 |---|---|---|
 | [alcie](https://github.com/akashkumar25/alcie) | Research | Master's thesis: active learning for continual image captioning (BLIP-2, OFA), with episodic memory selection strategies |
-| [equipment-service-manual-troubleshooting-assistant](https://github.com/akashkumar25/equipment-service-manual-troubleshooting-assistant) | LLM | Fault code or symptom in, step-by-step troubleshooting with page citations out (in development) |
-| [heavy-equipment-visual-inspection-report-generator](https://github.com/akashkumar25/heavy-equipment-visual-inspection-report-generator) | Vision + LLM | Machine photos in, structured inspection report out (in development) |
-| [dashcam-road-safety-analytics](https://github.com/akashkumar25/dashcam-road-safety-analytics) | Vision | Dashcam video to detection, tracking, following-distance and near-miss analytics (in development) |
+| [equipment-service-manual-troubleshooting-assistant](https://github.com/akashkumar25/equipment-service-manual-troubleshooting-assistant) | LLM | Fault code or symptom in, step-by-step troubleshooting with page citations out. Hybrid BM25 + embedding retrieval, fault-code tool, multilingual (EN/DE/FR/ES), local LLM by default, Gradio UI |
+| [heavy-equipment-visual-inspection-report-generator](https://github.com/akashkumar25/heavy-equipment-visual-inspection-report-generator) | Vision + LLM | Machine photos in, structured inspection report out. Small VLM on CPU with optional API backend, schema validation with retry, Markdown/PDF reports, Gradio UI |
+| [dashcam-road-safety-analytics](https://github.com/akashkumar25/dashcam-road-safety-analytics) | Vision | Dashcam video to detection, tracking, following-distance and near-miss analytics. YOLO + tracking on CPU, time-to-collision warnings, event export, annotated video, Gradio UI, documented CPU FPS benchmark |
 
 ## Publications
 
